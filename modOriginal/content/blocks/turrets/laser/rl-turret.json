@@ -1,0 +1,63 @@
+{
+  "type": "LaserTurret",
+  "name": "RL Turret",
+  "description": "Unleashes a continuous, high-powered laser beam that melts through enemy armor. Requires cryofluid for maximum efficiency.",
+  "category": "turret",
+  "research": {
+    "parent": "death",
+    "objectives": ["cryofluid-mixer", "silicon"]
+  },
+  "targetAir": false,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 30,
+  "targetGround": true,
+  "health": 1800,
+  "size": 4,
+  "range": 400,
+  "shootDuration": 240,
+  "recoil": 3,
+  "rotateSpeed": 3,
+  "reload": 40,
+  "shootSound": "laserbig",
+  "loopSound": "beam",
+  "consumes": {
+    "power": 4.5,
+    "coolant": {
+      "type": "cryofluid",
+      "amount": 0.3,
+      "coolantMultiplier": 6
+    }
+  },
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": ""
+  },
+    "shootType": {
+    "type": "ContinuousLaserBulletType",
+    "damage": 80,
+    "length": 400,
+    "status": "melting",
+    "statusDuration": 480,
+    "colors": ["#b2f0ff80", "#6be6ff", "#2ec6ff", "#1b7fa6"],
+    "pierce": true
+  },
+  "requirements": [
+    {
+      "item": "silicon",
+      "amount": 350
+    },
+    {
+      "item": "copper",
+      "amount": 600
+    },
+    {
+      "item": "lead",
+      "amount": 400
+    },
+    {
+      "item": "titanium",
+      "amount": 250
+    }
+  ]
+}

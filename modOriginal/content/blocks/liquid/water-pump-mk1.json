@@ -1,0 +1,21 @@
+{
+  "name": "water-pump-mk1",
+  "type": "pump",
+  "category": "liquid",
+  "research": {
+    "parent": "mechanical-pump",
+    "requirements": [
+      { "item": "copper", "amount": 50 }
+    ]
+  },
+  "requirements": [
+    { "item": "copper", "amount": 30 },
+    { "item": "lead", "amount": 15 }
+  ],
+  "liquidCapacity": 30,
+  "outputLiquid": {
+    "liquid": "water",
+    "amount": 0.17
+  },
+  "consumes": {},
+}

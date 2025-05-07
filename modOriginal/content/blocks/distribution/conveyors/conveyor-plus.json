@@ -1,0 +1,17 @@
+{
+  "type": "Conveyor",
+  "name": "Conveyor Plus",
+  "description": "A conveyor faster than the basic one, but not as fast as titanium.",
+  "health": 65,
+  "requirements": [
+    "copper/2", "lead/1"
+  ],
+  "category": "distribution",
+  "buildCostMultiplier": 1.5,
+  "speed": 0.07,
+  "displayedSpeed": 8,
+  "research": {
+    "block": "conveyor",
+    "parent": "conveyor"
+  }
+}

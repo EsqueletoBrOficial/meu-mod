@@ -1,0 +1,26 @@
+{
+  "type": "Conduit",
+  "category": "liquid",
+  "name": "Fast Conduit",
+  "description": "Moves liquid extremely fast and stores a huge amount, perfect for high-volume liquid transport.",
+  "leaks": true,
+  "health": 135,
+  "liquidCapacity": 200,
+  "placeableLiquid": true,
+  "liquidPressure": 1.9,
+  "research": "conduit",
+  "requirements": [
+    {
+      "item": "metaglass",
+      "amount": 8
+    },
+    {
+      "item": "titanium",
+      "amount": 6
+    },
+    {
+      "item": "silicon",
+      "amount": 4
+    }
+  ]
+}

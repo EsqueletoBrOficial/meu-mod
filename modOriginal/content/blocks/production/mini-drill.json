@@ -1,0 +1,20 @@
+{
+  "type": "drill",
+  "name": "Mini Drill",
+  "drawMineItem": false,
+  "hasLiquids": false,
+  "rotateSpeed": 1,
+  "size": 1,
+  "tier": 2,
+  "drillTime": 100,
+  "category": "production",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 3
+    }
+  ],
+  "research": {
+    "parent": "mechanical-drill"
+  }
+}

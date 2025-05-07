@@ -1,0 +1,36 @@
+{
+  "type": "separator",
+  "name": "Refiner",
+  "description": "Refines scrap using slag and heat to produce advanced resources efficiently.",
+  "health": 260,
+  "size": 2,
+  "hasItems": true,
+  "hasLiquids": true,
+  "buildCostMultiplier": 0.45,
+  "hasPower": true,
+  "craftTime": 40,
+  "liquidCapacity": 112,
+  "itemCapacity": 15,
+  "requirements": [
+    { "item": "copper", "amount": 300 },
+    { "item": "lead", "amount": 150 },
+    { "item": "titanium", "amount": 50 }
+  ],
+  "consumes": {
+    "power": 1.22,
+    "items": {
+      "items": [
+        { "item": "scrap", "amount": 3 }
+      ]
+    },
+    "liquid": {
+      "liquid": "slag",
+      "amount": 0.25
+    }
+  },
+  "results": ["titanium/2", "silicon/2", "lead/4", "copper/3"],
+  "category": "crafting",
+  "research": {
+    "parent": "separator"
+  }
+}

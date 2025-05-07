@@ -1,0 +1,60 @@
+{
+  "type": "ItemTurret",
+  "name": "SkySplitter",
+  "description": "Anti-air turret designed for precision, using metaglass as ammo.",
+  "size": 2,
+  "health": 450,
+  "reload": 25,
+  "range": 320,
+  "targetAir": true,
+  "targetGround": false,
+  "rotateSpeed": 10,
+  "ammoPerShot": 1,
+  "maxAmmo": 20,
+  "category": "turret",
+  "recoilAmount": 1.8,
+  "outlineRadius": 2,
+  "shootSound": "shoot",
+  "ammoTypes": {
+    "metaglass": {
+      "type": "BasicBulletType",
+      "frontColor": "#b0e0e6",
+      "backColor": "#87ceeb",
+      "damage": 30,
+      "speed": 12,
+      "lifetime": 27,
+      "fragBullets": 6,
+      "fragBullet": {
+        "type": "BasicBulletType",
+        "damage": 8,
+        "speed": 10,
+        "lifetime": 15,
+        "sprite": "advanced-industry-bullet-frag",
+        "frontColor": "#a0d8ef",
+        "backColor": "#a0d8ef"
+      },
+      "fragCone": 45,
+      "trailColor": "#a0d8ef",
+      "hitEffect": "hitBulletSmall",
+      "despawnEffect": "hitBulletSmall"
+    }
+  },
+  "research": {
+    "parent": "scatter",
+    "objectives": ["salvo"]
+  },
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 50
+    },
+    {
+      "item": "copper",
+      "amount": 80
+    },
+    {
+      "item": "metaglass",
+      "amount": 60
+    }
+  ]
+}

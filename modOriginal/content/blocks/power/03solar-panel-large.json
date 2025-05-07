@@ -1,0 +1,18 @@
+{
+  "type": "SolarGenerator",
+  "name": "Large Solar Panel",
+  "description": "A large solar panel that generates a substantial amount of power.",
+  "category": "power",
+  "powerProduction": 1.9,
+  "health": 480,
+  "size": 3,
+  "requirements": [
+    "lead/30",
+    "silicon/60",
+    "titanium/20"
+  ],
+  "research": {
+    "block": "solar-panel",
+    "parent": "solar-panel"
+  }
+}

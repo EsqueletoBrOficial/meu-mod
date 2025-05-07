@@ -1,0 +1,44 @@
+{
+  "type": "drill",
+  "name": "Better Drill",
+  "description": "An advanced drill with high efficiency and liquid boost. Excels at mining hard ores.",
+  "drawMineItem": true,
+  "liquidBoostIntensity": 1.35,
+  "rotateSpeed": 2.5,
+  "size": 2,
+  "tier": 3,
+  "liquidCapacity": 40,
+  "drillTime": 28,
+  "hardnessDrillMultiplier": 12,
+  "category": "production",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 18
+    },
+    {
+      "item": "lead",
+      "amount": 25
+    },
+    {
+      "item": "graphite",
+      "amount": 20
+    },
+    {
+      "item": "silicon",
+      "amount": 10
+    }
+  ],
+  "research": {
+    "parent": "pneumatic-drill",
+    "objectives": ["graphite", "mini-drill"]
+  },
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.09,
+      "optional": true,
+      "booster": true
+    }
+  }
+}
