@@ -1,0 +1,19 @@
+{
+  "type": "StackConveyor",
+  "name": "PC Conveyor",
+  "description": "A very fast stack conveyor, but with lower capacity than Plastanium.",
+  "health": 120,
+  "category": "distribution",
+  "speed": 0.18,
+  "hasItems": true,
+  "itemCapacity": 4,
+  "requirements": [
+    { "item": "lead", "amount": 2 },
+    { "item": "copper", "amount": 3 },
+    { "item": "titanium", "amount": 1 }
+  ],
+  "research": {
+    "block": "fast-conveyor",
+    "parent": "titanium-conveyor"
+  }
+}

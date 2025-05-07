@@ -1,0 +1,17 @@
+{
+  "type": "Conveyor",
+  "name": "Fast Conveyor",
+  "description": "Faster than titanium, ideal for high-throughput lines.",
+  "health": 90,
+  "requirements": [
+    "copper/3", "lead/2", "titanium/1", "plastanium/1"
+  ],
+  "category": "distribution",
+  "buildCostMultiplier": 2.5,
+  "speed": 0.13,
+  "displayedSpeed": 14,
+  "research": {
+    "block": "titanium-conveyor",
+    "parent": "titanium-conveyor"
+  }
+}

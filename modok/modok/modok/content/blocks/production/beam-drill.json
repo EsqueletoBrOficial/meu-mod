@@ -1,0 +1,38 @@
+{
+  "type": "drill",
+  "name": "Beam Drill",
+  "description": "The ultimate laser drill, using advanced beam technology for unmatched mining speed and efficiency.",
+  "drawMineItem": true,
+  "liquidBoostIntensity": 1.75,
+  "rotateSpeed": 3.5,
+  "size": 3,
+  "tier": 4,
+  "itemCapacity": 30,
+  "liquidCapacity": 60,
+  "drillTime": 16,
+  "hardnessDrillMultiplier": 16,
+  "updateEffect": "smokeCloud",
+  "drillEffect": "mineHuge",
+  "category": "production",
+  "requirements": [
+    { "item": "copper", "amount": 40 },
+    { "item": "lead", "amount": 60 },
+    { "item": "graphite", "amount": 40 },
+    { "item": "silicon", "amount": 30 },
+    { "item": "titanium", "amount": 25 },
+    { "item": "plastanium", "amount": 15 }
+  ],
+  "consumes": {
+    "power": 2.5,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.18,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "research": {
+    "parent": "better-drill",
+    "objectives": ["plastanium", "laser-drill"]
+  }
+}

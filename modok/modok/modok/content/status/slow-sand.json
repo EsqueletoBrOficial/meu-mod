@@ -1,0 +1,12 @@
+{
+  "name": "slow-sand",
+  "color": "#c2b280",
+  "disarm": true,
+  "damage": 0,
+  "healthMultiplier": 0.45,
+  "speedMultiplier": 0.5,
+  "dragMultiplier": 0.015,
+  "outline": true,
+  "effect": "none",
+  "effectChance": 0.02
+}
