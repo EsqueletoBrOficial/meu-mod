@@ -16,4 +16,3 @@ This mod contains:
 ### Changelog
 
 Current version: **1.0**  
-See the changes [here](Changelog.md)
