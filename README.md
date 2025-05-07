@@ -1,12 +1,8 @@
-# OP Mod
+# Advanced Industry
 
 ![Logo](icon.png)
 
 > An experimental Mindustry mod that adds unusual blocks, upgraded versions of vanilla blocks, and unique mechanics. Perfect for those looking for different challenges, faster production, and alternative strategies. Not recommended if you take the game too seriously!
-
-~~It means Oh Phuck Mod, just because~~
-
-This mod adds silly blocks or improved (_~~sometimes OP~~_) versions of base game blocks. This doesn't mean it's a hack.
 
 ## CAUTION
 
