@@ -2,22 +2,22 @@
 
 ![Logo](icon.png)
 
-It's a [Mindustry](https://mindustrygame.github.io) mod.
+> An experimental Mindustry mod that adds unusual blocks, upgraded versions of vanilla blocks, and unique mechanics. Perfect for those looking for different challenges, faster production, and alternative strategies. Not recommended if you take the game too seriously!
 
-~~That Means Oh Phuck Mod, because yes~~
+~~It means Oh Phuck Mod, just because~~
 
-This mod add new stupid blocks or upgraded(_~~sometimes op~~_) version of vanilla blocks. This doesn't means it's a hack.
+This mod adds silly blocks or improved (_~~sometimes OP~~_) versions of base game blocks. This doesn't mean it's a hack.
 
 ## CAUTION
 
 This mod contains:
 
-- Bad Sprites, many copys[(of source code)](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/).
-- Bad english.
-- Bad ideas.
-- What do you want playing this?
+- Bad sprites, many copied [(from the source code)](https://github.com/Anuken/Mindustry/blob/master/core/assets-raw/sprites/).
+- Bad English.
+- Dubious ideas.
+- Why are you even playing this?
 
 ### Changelog
 
-Actual version: **1.0**
-See that shit [here](Changelog.md)
+Current version: **1.0**  
+See the changes [here](Changelog.md)
