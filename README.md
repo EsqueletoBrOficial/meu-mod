@@ -15,4 +15,4 @@ This mod contains:
 
 ### Changelog
 
-Current version: **1.0**  
+Current version: **1.2.3**  
