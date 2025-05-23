@@ -154,10 +154,11 @@
   "consumes": {
     "power": 3.5
   },
+  "buildCostMultiplier": 1.9,
   "research": {
     "parent": "salvo",
     "objectives": [
-      "death"
+      "Titanium"
     ]
   }
 }
