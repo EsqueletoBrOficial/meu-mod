@@ -158,7 +158,7 @@
   "research": {
     "parent": "salvo",
     "objectives": [
-      "Titanium"
+      "titanium"
     ]
   }
 }
