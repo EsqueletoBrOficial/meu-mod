@@ -29,7 +29,7 @@
       "width": 10,
       "height": 24,
       "smokeEffect": "none",
-      "hitEffect": "explosion"
+      "hitEffect": "explosion",
       "despawnEffect": "plasticExplosion",
       "homingPower": 0.1,
       "homingRange": 600,
@@ -48,7 +48,7 @@
       "width": 10,
       "height": 24,
       "smokeEffect": "none",
-      "hitEffect": "explosion"
+      "hitEffect": "explosion",
       "despawnEffect": "plasticExplosion",
       "homingPower": 0.1,
       "homingRange": 600,

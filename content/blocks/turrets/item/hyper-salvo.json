@@ -1,0 +1,163 @@
+{
+  "type": "itemTurret",
+  "name": "hyper-salvo",
+  "description": "An advanced turret with high damage and multiple ammo types, designed for heavy defense.",
+  "category": "turret",
+  "health": 300,
+  "size": 2,
+  "reload": 28,
+  "range": 210,
+  "rotateSpeed": 12,
+  "ammoPerShot": 1,
+  "shoot": {
+    "type": "ShootContinuous",
+    "shots": 4,
+    "shotDelay": 3,
+    "burstSpacing": 5
+  },
+  "maxAmmo": 30,
+  "targetAir": false,
+  "targetGround": true,
+  "shootSound": "shootBig",
+  "shake": 1,
+  "ammoEjectback": 3,
+  "recoil": 0,
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "base-type-a-",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel",
+        "under": false,
+        "moveY": -2.5,
+        "progress": "recoil"
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-side",
+        "moveX": 0.6,
+        "moveRot": -15,
+        "mirror": true,
+        "layerOffset": 0.001,
+        "progress": "warmup"
+      }
+    ]
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 100
+    },
+    {
+      "item": "graphite",
+      "amount": 80
+    },
+    {
+      "item": "titanium",
+      "amount": 50
+    },
+    {
+      "item": "thorium",
+      "amount": 30
+    }
+  ],
+  "ammoTypes": {
+    "copper": {
+      "type": "BasicBulletType",
+      "damage": 18,
+      "speed": 6,
+      "width": 7,
+      "height": 9,
+      "lifetime": 35,
+      "ammoMultiplier": 2,
+      "hitEffect": "hitBulletColor",
+      "hitColor": "#d99d73",
+      "frontColor": "#f4ba8e",
+      "backColor": "#d99d73",
+      "trailColor": "#f4ba8e",
+      "trailLength": 6
+    },
+    "graphite": {
+      "type": "BasicBulletType",
+      "damage": 30,
+      "speed": 6,
+      "width": 9,
+      "height": 12,
+      "lifetime": 35,
+      "ammoMultiplier": 4,
+      "rangeChange": 32,
+      "hitEffect": "hitBulletColor",
+      "despawnEffect": "hitBulletColor",
+      "hitColor": "#6b6b6b",
+      "frontColor": "#b2c6d2",
+      "backColor": "#6b6b6b",
+      "trailColor": "#b2c6d2",
+      "trailLength": 6
+    },
+    "pyratite": {
+      "type": "BasicBulletType",
+      "damage": 28,
+      "speed": 6,
+      "width": 10,
+      "height": 12,
+      "lifetime": 35,
+      "ammoMultiplier": 5,
+      "status": "burning",
+      "splashDamage": 16,
+      "splashDamageRadius": 25,
+      "hitEffect": "fireHit",
+      "hitColor": "#ffa464",
+      "frontColor": "#ffd1a8",
+      "backColor": "#ffa464",
+      "trailColor": "#ffd1a8",
+      "trailLength": 6
+    },
+    "silicon": {
+      "type": "BasicBulletType",
+      "damage": 18,
+      "speed": 6,
+      "width": 8,
+      "height": 10,
+      "homingPower": 0.2,
+      "reloadMultiplier": 1.5,
+      "ammoMultiplier": 5,
+      "lifetime": 35,
+      "trailLength": 6,
+      "hitEffect": "hitBulletColor",
+      "despawnEffect": "hitBulletColor",
+      "hitColor": "#8ca2ad",
+      "frontColor": "#dce7eb",
+      "backColor": "#8ca2ad",
+      "trailColor": "#dce7eb"
+    },
+    "thorium": {
+      "type": "BasicBulletType",
+      "damage": 29,
+      "speed": 6,
+      "width": 8,
+      "height": 13,
+      "ammoMultiplier": 4,
+      "lifetime": 35,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
+      "hitEffect": "hitBulletColor",
+      "despawnEffect": "hitBulletColor",
+      "hitColor": "#f3a2c4",
+      "frontColor": "#f9d6e3",
+      "backColor": "#f3a2c4",
+      "trailColor": "#f9d6e3",
+      "trailLength": 6
+    }
+  },
+  "hasPower": true,
+  "consumes": {
+    "power": 3.5
+  },
+  "research": {
+    "parent": "salvo",
+    "objectives": [
+      "death"
+    ]
+  }
+}
