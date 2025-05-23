@@ -16,7 +16,7 @@
     "burstSpacing": 5
   },
   "maxAmmo": 30,
-  "targetAir": false,
+  "targetAir": true,
   "targetGround": true,
   "shootSound": "shootBig",
   "shake": 1,
